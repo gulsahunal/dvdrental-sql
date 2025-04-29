@@ -1,12 +1,19 @@
 # DVD Rental SQL Assignment
 
-This project contains basic SQL queries on the PostgreSQL sample database DVD Rental.
+This project contains SQL queries on the PostgreSQL sample database DVD Rental, organized into separate task folders.
 
 ## About the Database
 
 DVD Rental is a sample database created for a DVD rental business. It includes basic business processes such as films, customers, rentals, and payments.
 
-## Assignment Queries
+## Project Structure
+
+- `task1/` - Basic SQL queries
+- `task2/` - Intermediate SQL queries
+- `task3/` - Advanced SQL queries
+- `task4/` - Complex SQL queries
+
+## Task 1 - Basic Queries
 
 1. List film titles and descriptions:
 ```sql
@@ -39,7 +46,7 @@ WHERE NOT (length = 50) AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
 ## Installation
 
 1. Install PostgreSQL
-2. Download and set up the DVD Rental database
+2. Download and set up the DVD Rental database (dvdrental.tar)
 3. Use your PostgreSQL client to run the queries
 
 ## Resources
