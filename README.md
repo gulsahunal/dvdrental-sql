@@ -8,40 +8,13 @@ DVD Rental is a sample database created for a DVD rental business. It includes b
 
 ## Project Structure
 
-- `task1/` - Basic SQL queries
-- `task2/` - Intermediate SQL queries
-- `task3/` - Advanced SQL queries
-- `task4/` - Complex SQL queries
-
-## Task 1 - Basic Queries
-
-1. List film titles and descriptions:
-```sql
-SELECT title, description FROM film
-```
-
-2. List all films with length between 60 and 75 minutes:
-```sql
-SELECT * FROM film
-WHERE length > 60 AND length < 75;
-```
-
-3. List all films with rental rate 0.99 and replacement cost either 12.99 or 28.99:
-```sql
-SELECT * FROM film
-WHERE rental_rate = 0.99 AND (replacement_cost = 12.99 OR replacement_cost = 28.99);
-```
-
-4. Find last name of customer with first name 'Mary':
-```sql
-SELECT last_name FROM customer WHERE first_name = 'Mary';
-```
-
-5. List films with length not 50 and rental rate not 2.99 or 4.99:
-```sql
-SELECT * FROM film 
-WHERE NOT (length = 50) AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
-```
+- `task1/` - Basic SELECT, WHERE, and ORDER BY queries
+- `task2/` - JOIN operations and GROUP BY queries
+- `task3/` - Subqueries and Common Table Expressions (CTEs)
+- `task4/` - Window Functions and Advanced Aggregations
+- `task5/` - Data Analysis and Reporting queries
+- `task6/` - Performance Optimization and Indexing queries
+- `task7/` - Business Intelligence and Analytics queries
 
 ## Installation
 
