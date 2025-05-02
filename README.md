@@ -15,6 +15,7 @@ DVD Rental is a sample database created for a DVD rental business. It includes b
 - `task5/` - Data Analysis and Reporting queries
 - `task6/` - Performance Optimization and Indexing queries
 - `task7/` - Business Intelligence and Analytics queries
+- `task8/` - Advanced SQL Features and Complex Queries
 
 ## Installation
 
